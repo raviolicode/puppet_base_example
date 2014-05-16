@@ -11,4 +11,5 @@ rvm_system_ruby {
     default_use => true;
 }
 
-
+# Install nginx
+class { 'nginx': }
